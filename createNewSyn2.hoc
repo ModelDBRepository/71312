@@ -27,6 +27,7 @@ totSyn = 1000
 
 objref Ens
 Ens = new NetStim(0.5)
+Ens.noiseFromRandom123(0, 2, 0)
 Ens.interval=200
 Ens.number = 1000000000000000000000000000000
 Ens.start=0
