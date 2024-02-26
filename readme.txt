@@ -32,3 +32,7 @@ will open the simulation window.
 
 Questions on how to use this model
 should be directed to xsli2@yahoo.com
+
+Updates
+
+20240226 Use noiseFromRandom123 for result identity between 8.2 and 9.0
