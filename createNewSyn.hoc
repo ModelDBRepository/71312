@@ -60,6 +60,7 @@ for (i=0; i <= totSyn-1; i +=1) {
     dend[comp].sec {
 	dist = distance(tmp)
         Ens[i] = new NetStim(0.5)
+        Ens[i].noiseFromRandom123(i, 1, 0)
         Ens[i].interval=200
         Ens[i].number = 1000000000000000000000000000000
         Ens[i].start=0

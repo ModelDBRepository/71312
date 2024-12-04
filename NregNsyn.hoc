@@ -9,6 +9,7 @@ printf("irregular & asynchronous input. frequency = %d \n", freq)
 
 objref r
 r = new Random()
+r.Random123()
 
 
 for i=0, totSyn-1 {  //totSyn is the total # of synapses
